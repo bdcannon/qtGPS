@@ -1,0 +1,2 @@
+# qtGPS
+Leave me alone
