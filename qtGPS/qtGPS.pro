@@ -3,7 +3,8 @@ QML_IMPORT_PATH =
 
 # The .cpp file which was generated for your project. Feel free to hack it.
 SOURCES += main.cpp \
-    gpsreader.cpp
+    gpsreader.cpp \
+    logger.cpp
 
 RESOURCES += qml.qrc
 CONFIG += serialport c++11
@@ -18,4 +19,5 @@ include(qtquick1applicationviewer/qtquick1applicationviewer.pri)
 include(deployment.pri)
 
 HEADERS += \
-    gpsreader.h
+    gpsreader.h \
+    logger.h

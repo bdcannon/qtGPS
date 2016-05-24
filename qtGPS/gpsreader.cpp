@@ -48,7 +48,6 @@ void GPSReader::readLine(){
  */
 
 void GPSReader::processLine(const QString & line){
-
     QStringList fields = line.split(',');
     QString time = fields[1];
 
