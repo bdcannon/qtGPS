@@ -11,8 +11,16 @@ Rectangle {
         }
     }
 
-    Text {
-        text: qsTr("Hello World")
-        anchors.centerIn: parent
+    Rectangle{
+        anchors.centerIn:parent
+        color:"blue"
+        height:180
+        width:180
+        NumberAnimation on rotation{
+            from:0
+            to : 360
+            loops:NumberAnimation.Infinite
+            duration:3000
+        }
     }
 }
